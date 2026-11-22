@@ -367,5 +367,6 @@ Berdasarkan seluruh tahapan praktikum yang telah dilakukan, aplikasi pengelolaan
 2. **Read**, yaitu proses menampilkan data barang yang tersimpan di dalam database beserta gambar produk.
 3. **Update**, yaitu proses mengubah informasi barang yang sudah tersimpan.
 4. **Delete**, yaitu proses menghapus data barang berdasarkan ID.
+![FINAL WEB](IMG/Ss.Tampilan%20web%20final.png)
 
 Melalui praktikum ini, penerapan PHP dan MySQL dalam pengelolaan database dapat dipahami melalui pembuatan aplikasi CRUD sederhana. Seluruh hasil pengerjaan disimpan dalam repository GitHub dengan nama `Lab8Web`.
