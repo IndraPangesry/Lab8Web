@@ -1,0 +1,83 @@
+/* Area toolbar */
+
+.toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+/* Tombol tambah */
+
+.btn-tambah {
+    display: inline-block;
+    padding: 12px 20px;
+
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #38bdf8
+    );
+
+    color: white;
+    text-decoration: none;
+
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* Efek hover */
+
+.btn-tambah:hover {
+    background: #1e40af;
+}
+
+/* Tombol formulir */
+
+.form-action button,
+.form-action a {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.form-action button {
+    background: #2563eb;
+    color: white;
+}
+
+.form-action a {
+    background: #e2e8f0;
+    color: #334155;
+}
+.btn-ubah {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-ubah:hover {
+    background-color: #1d4ed8;
+}
+.btn-hapus {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #dc2626;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-hapus:hover {
+    background-color: #b91c1c;
+}

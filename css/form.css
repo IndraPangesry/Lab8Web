@@ -1,0 +1,54 @@
+/* Container formulir */
+
+.form-container {
+    max-width: 650px;
+    margin: auto;
+}
+
+/* Judul formulir */
+
+.form-container h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+}
+
+/* Grup formulir */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label */
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #334155;
+    font-weight: 600;
+}
+
+/* Input */
+
+.form-group input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Efek input */
+
+.form-group input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.2);
+}
+
+/* Area tombol */
+
+.form-action {
+    display: flex;
+    gap: 12px;
+    margin-top: 25px;
+}

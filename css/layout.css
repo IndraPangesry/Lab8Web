@@ -1,0 +1,50 @@
+/* =========================
+   LAYOUT WEBSITE
+========================= */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(
+        135deg,
+        #ffe0ec,
+        #e9d5ff,
+        #dbeafe
+    );
+
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+/* Container utama */
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+
+    background: #ffffff;
+    padding: 35px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Judul halaman */
+
+h1 {
+    text-align: center;
+    color: #000000;
+
+    font-size: 32px;
+    font-weight: 700;
+
+    margin-bottom: 35px;
+}
+
+/* Area utama */
+
+.main {
+    width: 100%;
+    overflow-x: auto;
+}
